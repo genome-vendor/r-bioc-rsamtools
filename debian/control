@@ -1,0 +1,14 @@
+Source: r-bioc-rsamtools
+Section: gnu-r
+Priority: optional
+Maintainer: The Genome Institute <gmt@genome.wustl.edu>
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-bioc-iranges (>= 1.15.35), r-bioc-genomicranges (>= 1.9.48), r-bioc-biostrings (>= 2.25.6), r-bioc-zlibbioc, r-cran-bitops
+Homepage: http://www.bioconductor.org/packages/2.11/bioc/html/Rsamtools.html
+
+Package: r-bioc-rsamtools
+Architecture: all
+Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
+Description: This package provides an interface to the 'samtools', 'bcftools', and 'tabix' utilities (see 'LICENCE') for manipulating SAM (Sequence Alignment / Map), binary variant call (BCF) and compressed indexed tab-delimited (tabix) files.
+License: Artistic2.0
+Depends: r-base-core, r-bioc-iranges (>= 1.15.35), r-bioc-genomicranges (>= 1.9.48), r-bioc-biostrings (>= 2.25.6), r-bioc-zlibbioc, r-cran-bitops
+
