@@ -6,7 +6,7 @@ Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-bioc-iranges (>=
 Homepage: http://www.bioconductor.org/packages/2.11/bioc/html/Rsamtools.html
 
 Package: r-bioc-rsamtools
-Architecture: all
+Architecture: amd64
 Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
 Description: This package provides an interface to the 'samtools', 'bcftools', and 'tabix' utilities (see 'LICENCE') for manipulating SAM (Sequence Alignment / Map), binary variant call (BCF) and compressed indexed tab-delimited (tabix) files.
 License: Artistic2.0
